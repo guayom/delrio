@@ -17,6 +17,8 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+page "/backgroud.html", :layout => "content"
+
 activate :i18n, :mount_at_root => false
 activate :directory_indexes
 
