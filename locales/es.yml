@@ -1,0 +1,21 @@
+---
+es:
+  test: PRUEBA
+  paths:
+    home: inicio
+    flowers: flores
+    our_company: nuestra-compania
+    background: antecedentes
+    news: noticias
+
+  home: Inicio
+  flowers: Flores
+  our_company: Nuestra compañía
+  background: Antecedentes
+  news: Noticias
+  #fix this
+  home_path: /es
+  flowers_path: flores
+  our_company_path: nuestra-compania
+  background_path: antecedentes
+  news_path: noticias

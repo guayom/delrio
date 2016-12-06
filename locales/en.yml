@@ -1,0 +1,21 @@
+---
+en:
+  test: TEST
+  paths:
+    home: home
+    flowers: flowers
+    our_company: our-company
+    background: background
+    news: news
+
+  home: Home
+  flowers: flowers
+  our_company: Our company
+  background: Background
+  news: News
+  #fix this
+  home_path: /en
+  flowers_path: flowers
+  our_company_path: our-company
+  background_path: background
+  news_path: news
