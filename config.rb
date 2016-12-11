@@ -11,14 +11,14 @@ data.families.each do |family|
   proxy "/en/#{family.nombre_en.parameterize}/index.html", "/family-template.html",
     :locals => {
       :family => family,
-      :family_name => family.nombre_en,
+      :family_name => family.title['en'],
       :family_description => family.characteristics_en,
       :language => "en"
       }, :ignore => true
   proxy "/es/#{family.nombre_es.parameterize}/index.html", "/family-template.html",
     :locals => {
       :family => family,
-      :family_name => family.nombre_es,
+      :family_name => family.title['es'],
       :family_description => family.characteristics_es,
       :language => "es"
       }, :ignore => true
