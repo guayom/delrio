@@ -35,7 +35,7 @@
                 <% data.families.each do |family| %>
                   <li>
                     <a href="/<%= get_language %>/<%= family.nombre_en.parameterize %>">
-                      <%= get_family_translations("name", family.id, get_language) %>
+                      <%= family.title[get_language] %>
                     </a>
                   </li>
                 <% end %>

@@ -40,17 +40,6 @@ helpers do
     @lang = current_page.path.split('/')
     @lang.first
   end
-  def get_family_translations(field, family, lang)
-    @family = data.families.select{|i| i.id == family}.first
-    case field
-    when "name"
-      lang == "en" ? (@result = @family.nombre_en) : (@result = @family.nombre_es)
-    else
-      @result["en"] = @family.nombre_en
-      @result["es"] = @family.nombre_es
-    end
-    @result
-  end
 end
 
 # Build-specific configuration
