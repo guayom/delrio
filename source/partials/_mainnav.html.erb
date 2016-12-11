@@ -26,7 +26,7 @@
           ]
         %>
         <% @links.each do |item| %>
-          <% if item[1] == 'flowers' %>
+          <% if item[1] == 'flowers' or item[1] == 'flores' %>
             <li class="nav-link dropdown">
               <a href="<%= item[1] %>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <%= item[0].capitalize %> <span class="caret"></span>
@@ -34,7 +34,7 @@
               <ul class="dropdown-menu">
                 <% data.families.each do |family| %>
                   <li>
-                    <a href="/<%= get_language %>/<%= family.nombre_en.parameterize %>">
+                    <a href="/<%= get_language %>/<%= family.title[get_language].parameterize %>">
                       <%= family.title[get_language] %>
                     </a>
                   </li>

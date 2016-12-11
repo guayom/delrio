@@ -1,84 +1,53 @@
 %YAML 1.1
 ---
-# delrioex_db.srskm_del_rio_families
 -
   id: 1
   title:
     en: "Musas"
     es: "Musas"
+  description:
+    en: "around the world they are more than 70 species of Musa. They are in the family of the bananas and plantains but this flowers are odorless and  you can found them all year long except the white musa."
+    es: "around the world they are more than 70 species of Musa. They are in the family of the bananas and plantains but this flowers are odorless and  you can found them all year long except the white musa."
   ordering: 1
-  state: 1
-  checked_out: 0
-  checked_out_time: "0000-00-00 00:00:00"
-  created_by: 764
-  nombre_es: "Musas"
-  nombre_en: "Musas"
-  characteristics_en: "around the world they are more than 70 species of Musa. They are in the family of the bananas and plantains but this flowers are odorless and  you can found them all year long except the white musa."
-  characteristics_sp: "around the world they are more than 70 species of Musa. They are in the family of the bananas and plantains but this flowers are odorless and  you can found them all year long except the white musa."
-  image: "images/flowers/musas/musa-royal.jpg"
-  menuitem: 101
+  image: "/images/flowers/musas/musa-royal.jpg"
 -
   id: 2
   title:
     en: "Gingers"
     es: "Gingers"
+  description:
+    en: "Alpinia Purpurata or Ginger as comun name are native from Malaysian, and its the national flower of Samoa. It tend to like humid enviroment and Ginger can also be grown as a houseplant."
+    es: "La Alpinia Purpurata ó Ginger, como se conoce popularmente, es nativa de Malasia y es la flor nacional de Samoa. Se desarrolla mejor en ambientes húmedos. La Ginger también puede ser cultivada como una planta casera."
   ordering: 2
-  state: 1
-  checked_out: 0
-  checked_out_time: "0000-00-00 00:00:00"
-  created_by: 764
-  nombre_es: "Gingers"
-  nombre_en: "Gingers"
-  characteristics_en: "Alpinia Purpurata or Ginger as comun name are native from Malaysian, and its the national flower of Samoa. It tend to like humid enviroment and Ginger can also be grown as a houseplant."
-  characteristics_sp: "La Alpinia Purpurata ó Ginger, como se conoce popularmente, es nativa de Malasia y es la flor nacional de Samoa. Se desarrolla mejor en ambientes húmedos. La Ginger también puede ser cultivada como una planta casera."
-  image: "images/flowers/gingers/ginger-king.jpg"
-  menuitem: 101
+  image: "/images/flowers/gingers/ginger-king.jpg"
 -
   id: 3
   title:
     en: "Heliconias"
     es: "Heliconias"
+  description:
+    en: "Heliconias are very sensitive to cold and should never be exposed to temperatures below 15 degrees celsius or they will show signs of blackening.\r\n\r\n Available in 2 major bloom structure types, Upright (or Erect )and Hanging (or Pendant.)\r\n\r\nFlowers between bracts should be removed before use in floral arrangements.\r\n\r\nHeliconias must be kept humid and occasional misting is recommended. \r\n\r\nHeliconias have a vase life of 7 to 15 days with proper care"
+    es: "Las heliconias son muy sensibles al frío y nunca deberían estar expuestas a temperaturas por debajo de los 15 grados celsius ó de lo contrario empezarán a mostrar signos de oscurecimiento."
   ordering: 3
-  state: 1
-  checked_out: 0
-  checked_out_time: "0000-00-00 00:00:00"
-  created_by: 764
-  nombre_es: "Heliconias"
-  nombre_en: "Heliconias"
-  characteristics_en: "Heliconias are very sensitive to cold and should never be exposed to temperatures below 15 degrees celsius or they will show signs of blackening.\r\n\r\n Available in 2 major bloom structure types, Upright (or Erect )and Hanging (or Pendant.)\r\n\r\nFlowers between bracts should be removed before use in floral arrangements.\r\n\r\nHeliconias must be kept humid and occasional misting is recommended. \r\n\r\nHeliconias have a vase life of 7 to 15 days with proper care"
-  characteristics_sp: "Las heliconias son muy sensibles al frío y nunca deberían estar expuestas a temperaturas por debajo de los 15 grados celsius ó de lo contrario empezarán a mostrar signos de oscurecimiento."
-  image: "images/flowers/heliconias/mayan-gold-xl.jpg"
-  menuitem: 101
+  image: "/images/flowers/heliconias/mayan-gold-xl.jpg"
 -
   id: 4
   title:
     en: "Special Products"
     es: "Productos Especiales"
+  description:
+    en:
+    es:
   ordering: 4
-  state: 1
-  checked_out: 0
-  checked_out_time: "0000-00-00 00:00:00"
-  created_by: 764
-  nombre_es: "Productos Especiales"
-  nombre_en: "Special Products"
-  characteristics_en: ""
-  characteristics_sp: ""
-  image: "images/flowers/productos-especiales/kiss-of-death.jpg"
-  menuitem: 0
+  image: "/images/flowers/productos-especiales/kiss-of-death.jpg"
 -
   id: 5
   title:
     en: "Foliages"
     es: "Follajes"
+  description:
+    en:
+    es:
   ordering: 5
-  state: 1
-  checked_out: 0
-  checked_out_time: "0000-00-00 00:00:00"
-  created_by: 764
-  nombre_es: "Follajes"
-  nombre_en: "Foliages"
-  characteristics_en: ""
-  characteristics_sp: ""
-  image: "images/flowers/foliage/monstera-large-small.jpg"
-  menuitem: 101
+  image: "/images/flowers/foliage/monstera-large-small.jpg"
 ...

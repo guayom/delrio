@@ -8,18 +8,18 @@ page '/*.txt', layout: false
 
 #Pages for families
 data.families.each do |family|
-  proxy "/en/#{family.nombre_en.parameterize}/index.html", "/family-template.html",
+  proxy "/en/#{family.title['en'].parameterize}/index.html", "/family-template.html",
     :locals => {
       :family => family,
       :family_name => family.title['en'],
-      :family_description => family.characteristics_en,
+      :family_description => family.description['en'],
       :language => "en"
       }, :ignore => true
-  proxy "/es/#{family.nombre_es.parameterize}/index.html", "/family-template.html",
+  proxy "/es/#{family.title['es'].parameterize}/index.html", "/family-template.html",
     :locals => {
       :family => family,
       :family_name => family.title['es'],
-      :family_description => family.characteristics_es,
+      :family_description => family.description['es'],
       :language => "es"
       }, :ignore => true
 end
