@@ -33,7 +33,11 @@
               </a>
               <ul class="dropdown-menu">
                 <% data.families.each do |family| %>
-                  <li><a href="/<%= family.nombre_en.parameterize %>"><%= family.nombre_en %></a></li>
+                  <li>
+                    <a href="/<%= get_language %>/<%= family.nombre_en.parameterize %>">
+                      <%= get_family_translations("name", family.id, get_language) %>
+                    </a>
+                  </li>
                 <% end %>
               </ul>
             </li>

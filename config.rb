@@ -35,11 +35,23 @@ activate :directory_indexes
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def get_language
+    @lang = current_page.path.split('/')
+    @lang.first
+  end
+  def get_family_translations(field, family, lang)
+    @family = data.families.select{|i| i.id == family}.first
+    case field
+    when "name"
+      lang == "en" ? (@result = @family.nombre_en) : (@result = @family.nombre_es)
+    else
+      @result["en"] = @family.nombre_en
+      @result["es"] = @family.nombre_es
+    end
+    @result
+  end
+end
 
 # Build-specific configuration
 configure :build do
