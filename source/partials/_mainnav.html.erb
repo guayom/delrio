@@ -26,7 +26,20 @@
           ]
         %>
         <% @links.each do |item| %>
-          <li class="nav-link"><a href="<%= item[1] %>"><%= item[0].capitalize %></a></li>
+          <% if item[1] == 'flowers' %>
+            <li class="nav-link dropdown">
+              <a href="<%= item[1] %>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <%= item[0].capitalize %> <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <% data.families.each do |family| %>
+                  <li><a href="/<%= family.nombre_en.parameterize %>"><%= family.nombre_en %></a></li>
+                <% end %>
+              </ul>
+            </li>
+          <% else %>
+            <li class="nav-link"><a href="<%= item[1] %>"><%= item[0].capitalize %></a></li>
+          <% end %>
         <% end %>
       </ul>
       <ul class="nav navbar-nav navbar-right">

@@ -1,0 +1,1660 @@
+%YAML 1.1
+---
+# delrioex_db.srskm_del_rio_flowers
+-
+  id: 1
+  ordering: 1
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Bronce"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 1
+  availability: 1
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: "10 - 20"
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 2
+  ordering: 2
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Coccinea"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 2
+  availability: 1
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: "10 - 20"
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 3
+  ordering: 3
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Pink"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 15
+  availability: 1
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: "10 - 20"
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 4
+  ordering: 4
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Praying Hands"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 4
+  availability: 1
+  length: 120
+  stem_length: ""
+  head_size_sm: 40
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: 2
+  other_characteristics_en: "It can be only pack by 2 units cause they are very heavy!"
+  other_characteristics_es: "Solo se pueden empacar en grupos de 2 porque son muy pesadas"
+  featured: 0
+-
+  id: 5
+  ordering: 5
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Purple"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 5
+  availability: 1
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: "10 - 20"
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 6
+  ordering: 6
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa Royal"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 6
+  availability: 1
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: "10 - 20"
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 7
+  ordering: 7
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Musa Sp"
+  common_name_en: "Mussa White"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 1
+  color: 7
+  availability: 0
+  length: "70 -150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "Very Unique Variety"
+  other_characteristics_es: "Variedad muy exclusiva"
+  featured: 0
+-
+  id: 8
+  ordering: 8
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Sp"
+  common_name_en: "Red Ginger"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 2
+  color: "13,14"
+  availability: 1
+  length: ""
+  stem_length: "60-180"
+  head_size_sm: "10-15"
+  head_size_md: "15-20"
+  head_size_lg: "20-25"
+  head_size_xl: "25-30"
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 1
+-
+  id: 9
+  ordering: 9
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Sp"
+  common_name_en: "Pink Ginger"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 2
+  color: 15
+  availability: 1
+  length: ""
+  stem_length: "60-180"
+  head_size_sm: "10-15"
+  head_size_md: "15-20"
+  head_size_lg: "20-25"
+  head_size_xl: "25-30"
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 10
+  ordering: 10
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Sp"
+  common_name_en: "White Ginger"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 2
+  color: 7
+  availability: 1
+  length: ""
+  stem_length: 100
+  head_size_sm: 10
+  head_size_md: 15
+  head_size_lg: 20
+  head_size_xl: 25
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 11
+  ordering: 11
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Sp"
+  common_name_en: "Ginger King Red"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 2
+  color: 16
+  availability: 1
+  length: ""
+  stem_length: "60-150"
+  head_size_sm: "15-25"
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 12
+  ordering: 12
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Sp"
+  common_name_en: "Ginger King Pink"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 2
+  color: 16
+  availability: 1
+  length: ""
+  stem_length: "60-150"
+  head_size_sm: "15-25"
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 13
+  ordering: 13
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Red Iris"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 14
+  ordering: 14
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Camerun"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 15
+  ordering: 15
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sheneana"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 16
+  ordering: 16
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sheneana"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 17
+  ordering: 17
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Edge of Night"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 18
+  ordering: 18
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Prince of Darkness"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Special Feature:</strong> this plant can grow up to 4.5 meters!"
+  other_characteristics_es: "<strong>Característica especial:</strong> ¡Esta planta puede crecer hasta 4.5 metros!"
+  featured: 0
+-
+  id: 19
+  ordering: 19
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Mayan Gold"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
+  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande "
+  featured: 0
+-
+  id: 20
+  ordering: 20
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Splash"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
+  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande"
+  featured: 0
+-
+  id: 21
+  ordering: 21
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Green Tumb"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
+  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande "
+  featured: 1
+-
+  id: 22
+  ordering: 22
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Wagneriana"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 23
+  ordering: 23
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Shubby"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 24
+  ordering: 24
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Ecuatoriana"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 25
+  ordering: 25
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Pinky Peach"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 26
+  ordering: 26
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Real Tagami"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 27
+  ordering: 27
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "She Lisa"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 28
+  ordering: 28
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Candy Yellow"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 29
+  ordering: 29
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Candy White"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 30
+  ordering: 30
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Jardin Green"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 31
+  ordering: 31
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Jardin White"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 32
+  ordering: 32
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Jardin Yellow"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 33
+  ordering: 33
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Cumanda"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 34
+  ordering: 34
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sunshine"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 35
+  ordering: 35
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Humilis"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 36
+  ordering: 36
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Orange del rio"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 37
+  ordering: 45
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Rostrata"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 38
+  ordering: 44
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "She Kong"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Fun Fact: </strong>It is hairy!"
+  other_characteristics_es: "<strong>Dato divertido: </strong>Es peluda!"
+  featured: 0
+-
+  id: 39
+  ordering: 42
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sexy Pink"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 40
+  ordering: 43
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sexy Scarlet"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 41
+  ordering: 41
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Sexy Orange"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 42
+  ordering: 37
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Psittacorum Fire Opal"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 43
+  ordering: 38
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Psittacorum Golden Opal"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 44
+  ordering: 39
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Psittacorum Flamingo"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 45
+  ordering: 40
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Heliconia SP"
+  common_name_en: "Psittacorum Golden Torch Yellow"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 3
+  color: ""
+  availability: 0
+  length: "75-150"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 46
+  ordering: 46
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Etlingera Elartior"
+  common_name_en: "Ginger Torch Red"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: 100
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 47
+  ordering: 47
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Etlingera Elartior"
+  common_name_en: "Ginger Torch Pink"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: 100
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 48
+  ordering: 48
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "French Kiss"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: "40-70"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 49
+  ordering: 49
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Kiss of Death"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: "40-70"
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 1
+-
+  id: 50
+  ordering: 50
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Curcuma Ming"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: 150
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 51
+  ordering: 51
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Costus Green"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: 150
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 52
+  ordering: 52
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Costus Purple"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: 150
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 53
+  ordering: 53
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Lipstick Brown"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: 150
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 54
+  ordering: 54
+  state: 0
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Costus Sp"
+  common_name_en: "Lipstick Green"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: 150
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 55
+  ordering: 55
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Zingiber Sp"
+  common_name_en: "Shampoo Ginger Yellow"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: "45-65"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 56
+  ordering: 56
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Zingiber Sp"
+  common_name_en: "Shampoo Ginger Red"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: "40-70"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 57
+  ordering: 57
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Zingiber Sp"
+  common_name_en: "Shampoo Ginger Chocolate"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: "40-60"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 58
+  ordering: 58
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Zingiber Sp"
+  common_name_en: "Shampoo Ginger Green"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: 45
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 59
+  ordering: 59
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Calathea Sp"
+  common_name_en: "Calathea Yellow - Bronce"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: 120
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 60
+  ordering: 60
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Solanum Mamosum"
+  common_name_en: "Pig Face"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 4
+  color: ""
+  availability: 0
+  length: "50-60"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 61
+  ordering: 61
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Monstera Deliciosa"
+  common_name_en: "Monstera"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "You can find them in Mini, Small, Medium, Large and XL"
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 62
+  ordering: 62
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Cyperus Involucratus"
+  common_name_en: "Papyrus Umbrella"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: 120
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 1
+-
+  id: 63
+  ordering: 63
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Cyperus Papyrus"
+  common_name_en: "Papyrus Egipcio"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Fun Fact:</strong> it is the source of papyrus paper & parts of it can be eaten. Its native from Africa."
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 64
+  ordering: 64
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Alpinia Zerumbet"
+  common_name_en: "Ginger Variegado Yellow"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: "65-70"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "They are also sometimes known as the pink porcelain lily, variegated ginger or butterfly ginger. They can grow up to 8 to 10 ft (2.4 to 3.0 m) tall. "
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 65
+  ordering: 65
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Calathea"
+  common_name_en: "Calathea Zebrina"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: "60-70"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "<strong>Fact:</strong> Native to the tropical Americas, many of the species are popular as pot plants due to their decorative leaves. We grow 5 different varieties "
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 66
+  ordering: 66
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Dracaena Reflexa"
+  common_name_en: "Song of India"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "Dracaena reflexa, commonly called pleomele or song of India, is a species of Dracaena which is a tropical tree native to Madagascar, Mauritius."
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 67
+  ordering: 67
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Dracaena Reflexa"
+  common_name_en: "Song of Jamaica"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: ""
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: ""
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 68
+  ordering: 68
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Cordeline Terminalis"
+  common_name_en: "Tip de Cordelines"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: "60-120"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "We have more than 10 varieties"
+  other_characteristics_es: ""
+  featured: 0
+-
+  id: 69
+  ordering: 69
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  scientific_name: "Pandanus Halla"
+  common_name_en: "Pandanus"
+  common_name_es: ""
+  scientific_name_es: ""
+  family: 5
+  color: ""
+  availability: 0
+  length: "60-120"
+  stem_length: ""
+  head_size_sm: ""
+  head_size_md: ""
+  head_size_lg: ""
+  head_size_xl: ""
+  pack: ""
+  other_characteristics_en: "We have available 2 colors: variegado and green. Also we have 2 presentations straight and deco. The deco is a figure we can do on the tip of the pandanus, can be twisted or a bow."
+  other_characteristics_es: ""
+  featured: 0
+...

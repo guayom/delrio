@@ -1,0 +1,164 @@
+%YAML 1.1
+---
+# delrioex_db.srskm_del_rio_colors
+-
+  id: 1
+  ordering: 1
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Light Orange"
+  name_es: "Light Orange"
+  hex: ""
+-
+  id: 2
+  ordering: 2
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Bright Orange"
+  name_es: "Bright Orange"
+  hex: ""
+-
+  id: 3
+  ordering: 3
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Rosa"
+  name_es: "Pink"
+  hex: ""
+-
+  id: 4
+  ordering: 4
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Green & redish"
+  name_es: "Verde y Rojizo"
+  hex: ""
+-
+  id: 5
+  ordering: 5
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Terracota"
+  name_es: "Terracota"
+  hex: ""
+-
+  id: 6
+  ordering: 6
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Light Purple"
+  name_es: "Morado Claro"
+  hex: ""
+-
+  id: 7
+  ordering: 7
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "White"
+  name_es: "Blanco"
+  hex: ""
+-
+  id: 8
+  ordering: 8
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Red Ginger"
+  name_es: "Jengibre rojo"
+  hex: ""
+-
+  id: 9
+  ordering: 9
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Pink Ginger"
+  name_es: "Pink Ginger"
+  hex: ""
+-
+  id: 10
+  ordering: 10
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "White Ginger"
+  name_es: "White Ginger"
+  hex: ""
+-
+  id: 11
+  ordering: 11
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Ginger King Red"
+  name_es: "Ginger King Red"
+  hex: ""
+-
+  id: 12
+  ordering: 12
+  state: -2
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Ginger King Pink"
+  name_es: "Ginger King Pink"
+  hex: ""
+-
+  id: 13
+  ordering: 13
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Bright Red"
+  name_es: "Rojo Brillante"
+  hex: ""
+-
+  id: 14
+  ordering: 14
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Burgundy"
+  name_es: "Borgoña"
+  hex: ""
+-
+  id: 15
+  ordering: 15
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Pink"
+  name_es: "Rosa"
+  hex: ""
+-
+  id: 16
+  ordering: 16
+  state: 1
+  checked_out: 0
+  checked_out_time: "0000-00-00 00:00:00"
+  created_by: 764
+  name_default: "Strawberry Red"
+  name_es: "Rojo Fresa"
+  hex: ""
+...
