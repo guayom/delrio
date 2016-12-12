@@ -42,7 +42,7 @@
               </ul>
             </li>
           <% else %>
-            <li class="nav-link"><a href="<%= item[1] %>"><%= item[0].capitalize %></a></li>
+            <li class="nav-link"><a href="<%= "/#{get_language}/#{item[1]}" %>"><%= item[0].capitalize %></a></li>
           <% end %>
         <% end %>
       </ul>

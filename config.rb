@@ -5,30 +5,20 @@
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
-#Pages for families
-data.families.each do |family|
-  proxy "/en/#{family.title['en'].parameterize}/index.html", "/family-template.html",
-    :locals => {
-      :family => family,
-      :family_name => family.title['en'],
-      :family_description => family.description['en'],
-      :language => "en"
-      }, :ignore => true
-  proxy "/es/#{family.title['es'].parameterize}/index.html", "/family-template.html",
-    :locals => {
-      :family => family,
-      :family_name => family.title['es'],
-      :family_description => family.description['es'],
-      :language => "es"
-      }, :ignore => true
-end
+page '/index.html', layout: false
 
 # General configuration
 page "/backgroud.html", :layout => "content"
 
-activate :i18n, :mount_at_root => false
+activate :i18n, :mount_at_root => false, :langs => ['en', 'es']
 activate :directory_indexes
+
+#Pages for families
+['en', 'es'].each do |locale|
+  data.families.each do |family|
+    proxy "/#{locale}/#{family.title[locale].parameterize}/index.html", "/family-template.html", locals: { family: family }, lang: locale, :ignore => true
+  end
+end
 
 ###
 # Helpers
