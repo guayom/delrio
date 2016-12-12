@@ -47,7 +47,11 @@
         <% end %>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li>
+          <a href="<%= "/#{get_opposite_locale(I18n.locale.to_s)}/#{yield_content(:matching_path)}" %>">
+            <%= get_opposite_locale(I18n.locale.to_s) %>
+          </a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

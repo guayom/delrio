@@ -1,1 +1,4 @@
 <%= t(:our_company) %>
+<% content_for(:matching_path) do %>
+<%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "our_company") %>
+<% end %>

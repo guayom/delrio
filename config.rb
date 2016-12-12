@@ -16,7 +16,8 @@ activate :directory_indexes
 #Pages for families
 ['en', 'es'].each do |locale|
   data.families.each do |family|
-    proxy "/#{locale}/#{family.title[locale].parameterize}/index.html", "/family-template.html", locals: { family: family }, lang: locale, :ignore => true
+    @matching_path = locale == "es" ? "#{family.title['en'].parameterize}/" : "#{family.title['es'].parameterize}/"
+    proxy "/#{locale}/#{family.title[locale].parameterize}/index.html", "/family-template.html", locals: { family: family, matching_path: @matching_path}, lang: locale, :ignore => true
   end
 end
 
@@ -29,6 +30,19 @@ helpers do
   def get_language
     @lang = current_page.path.split('/')
     @lang.first
+  end
+
+  def get_opposite_locale(locale)
+    if locale == "en"
+      @result = "es"
+    else
+      @result = "en"
+    end
+    @result
+  end
+
+  def get_matching_path(locale, path)
+    t(:paths, locale: locale).to_hash[path.to_sym]
   end
 end
 

@@ -2,3 +2,6 @@
   <h1><%= family.title[I18n.locale] %></h1>
   <p><%= family.description[I18n.locale] %></p>
 </div>
+<% content_for(:matching_path) do %>
+<%= matching_path %>
+<% end %>
