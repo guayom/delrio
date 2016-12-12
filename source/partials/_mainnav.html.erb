@@ -18,7 +18,7 @@
       <ul class="nav navbar-nav">
         <%
           @links = [
-            [t(:home), t(:home_path)],
+            [t(:home), ""],
             [t(:flowers), t(:flowers_path)],
             [t(:our_company), t(:our_company_path)],
             [t(:background), t(:background_path)],
@@ -28,14 +28,14 @@
         <% @links.each do |item| %>
           <% if item[1] == 'flowers' or item[1] == 'flores' %>
             <li class="nav-link dropdown">
-              <a href="<%= item[1] %>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="/<%= I18n.locale %>/<%= item[1] %>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <%= item[0].capitalize %> <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <% data.families.each do |family| %>
                   <li>
-                    <a href="/<%= get_language %>/<%= family.title[get_language].parameterize %>">
-                      <%= family.title[get_language] %>
+                    <a href="/<%= I18n.locale %>/<%= family.title[I18n.locale].parameterize %>">
+                      <%= family.title[I18n.locale] %>
                     </a>
                   </li>
                 <% end %>
