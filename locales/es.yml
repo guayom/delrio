@@ -7,18 +7,25 @@ es:
     our_company: nuestra-compania
     background: antecedentes
     news: noticias
+    families: familias
+    family: familia
+    contact: contacto
 
   home: Inicio
   flowers: Flores
   our_company: Nuestra compañía
   background: Antecedentes
   news: Noticias
+  families: Familias
+  family: Familia
+  contact: Contacto
   #fix this
   home_path: /es
   flowers_path: flores
   our_company_path: nuestra-compania
   background_path: antecedentes
   news_path: noticias
+  contact_path: contacto
   why: ¿Por qué comprarle a Del Río?
   quality: Calidad
   quality_detail: Our main objective is QUALITY. We are proud of our excellent selection; quality control and packing process that allow us to deliver the highest quality flowers that satisfy our clients specific needs.

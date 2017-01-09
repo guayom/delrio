@@ -21,6 +21,7 @@ activate :directory_indexes
   end
 end
 
+
 ###
 # Helpers
 ###

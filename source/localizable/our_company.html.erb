@@ -2,3 +2,31 @@
 <% content_for(:matching_path) do %>
 <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "our_company") %>
 <% end %>
+
+<% if I18n.locale.to_s == 'en' %>
+  <h2>Mission</h2>
+  <p>The mission of Obashe-Del Rio is the production of fresh tropical flowers and foliage, durable and high quality.</p>
+
+  <p>Our focus is to offer a broad portfolio of products with high technical and regulatory backed duration under a comprehensive concept of agriculture solutions.</p>
+
+  <p>With our work we cooperate with the sustainable development of floriculture.</p>
+
+  <h2>Vision</h2>
+  <p>Our vision is to become a provider of highly fresh and durable while being recognized as leaders in sustainable tropical flowers. We would like to make a difference with our customers by providing excellent service and quality.</p>
+
+  <h2>Our Values</h2>
+  <p>We always seek the highest level of quality, the quality will always be a determining factor in our products to give our customers 100% satisfaction.</p>
+
+  <p>We believe in innovation and learning, we like to be innovating new products and services to create better relationships with our customers. We're always open to accept change, innovation and creativity.</p>
+
+  <p>We respect our staff, we believe that all our workers are the most valuable element of our business. We value and respect individual differences. Motivate and inspire our team to achieve high expectations and ambitious goals.</p>
+<% else %>
+  <h2>Misión</h2>
+  <p>La misión de Obashe-Del Rio consiste en la producción de Flores y Follajes Tropicales frescos, duraderos y de una alta calidad.&nbsp;Nuestro enfoque es ofrecer un portafolio amplio de productos de gran duración respaldado técnicamente y regulatoriamente bajo un concepto integral de soluciones de cultivo.&nbsp;Con nuestro trabajo colaboramos con el desarrollo de la floricultura sostenible.</p>
+  <h2>Visión</h2>
+  <p>Nuestra Visión es ser una compañía proveedora de productos altamente <strong>frescos y duraderos</strong> y a la vez ser reconocidos como líderes en la floricultura tropical sostenible. Quisiéramos marcar una diferencia con nuestros clientes brindándoles siempre un excelente servicio.</p>
+  <h2>Nuestros Valores</h2>
+  <p>Buscamos siempre el mayor nivel de calidad; la calidad siempre será un factor determinante en nuestros productos para poder brindarle a nuestros clientes el 100% de satisfacción.</p>
+  <p>Creemos en la innovación y aprendizaje; nos gusta estar innovando con nuevos productos y servicios para crear mejores relaciones con nuestros clientes. Siempre estamos abiertos para aceptar cambios, innovaciones y creatividad.</p>
+  <p>Respetamos nuestro equipo <strong>humano</strong>; creemos que todos nuestros trabajadores son el elemento más valioso de nuestra empresa. Valoramos y respetamos las diferencias individuales. Motivamos e inspiramos a nuestro equipo para alcanzar grandes expectativas y metas ambiciosas.</p>
+<% end %>

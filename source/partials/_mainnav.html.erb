@@ -19,10 +19,11 @@
         <%
           @links = [
             [t(:home), ""],
-            [t(:flowers), t(:flowers_path)],
+            #[t(:flowers), t(:flowers_path)],
             [t(:our_company), t(:our_company_path)],
             [t(:background), t(:background_path)],
-            [t(:news), t(:news_path)]
+            #[t(:news), t(:news_path)],
+            [t(:contact), t(:contact_path)]
           ]
         %>
         <% @links.each do |item| %>

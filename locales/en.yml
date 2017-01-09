@@ -7,18 +7,25 @@ en:
     our_company: our-company
     background: background
     news: news
+    families: families
+    family: family
+    contact: contact
 
   home: Home
-  flowers: flowers
+  flowers: Flowers
   our_company: Our company
   background: Background
   news: News
+  families: Families
+  family: Family
+  contact: Contact
   #fix this
   home_path: /en
   flowers_path: flowers
   our_company_path: our-company
   background_path: background
   news_path: news
+  contact_path: contact
   why: Why Choose Del Río?
   quality: Quality
   quality_detail: Nuestro principal objetivo es la CALIDAD. De la cual, estamos orgullosos de nuestro excelente proceso de selección, controles estrictos y proceso de empaque, que nos permiten entregar las flores de la más alta calidad que satisfacen las necesidades de nuestros clientes más específicos.

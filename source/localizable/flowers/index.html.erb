@@ -1,0 +1,17 @@
+<%= t(:flowers) %>
+<% content_for(:matching_path) do %>
+<%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "flowers") %>
+<% end %>
+
+<ul>
+  <% data.families.sort_by{|family| family.ordering }.each do |family| %>
+    <li>
+      <%= family.title[I18n.locale.to_s] %>
+      <ul>
+        <% data.flowers.select{|flower| flower.family == family.id }.each do |flower| %>
+          <li><%= flower.title.en %></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>

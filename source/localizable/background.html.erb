@@ -2,3 +2,34 @@
 <% content_for(:matching_path) do %>
 <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "background") %>
 <% end %>
+
+<% if I18n.locale.to_s == 'en' %>
+  <p>Obashe, S.A., started growing tropical flowers and foliage in March&nbsp;1986.&nbsp;The farm is located in Limón, in the Atlantic Coast of Costa Rica.&nbsp;This area is where the Tropical Rainforest is located. It is 140meters above the sea level. It has an average temperature of 30°C all the year.&nbsp;Obashe made its first export to Florida, United States in 1986, and now we export to some other states in the US, Canada and some other countries in Europe.</p>
+  <h3>Since our start we have participated in 14&nbsp;international trade shows, such as:</h3>
+  <ol>
+  <li>PMA New Orleans, USA October 1990</li>
+  <li>IPM Essen, Germany February 1991</li>
+  <li>IPM Essen, Germany February 1992</li>
+  <li>Plantec Frankfurt, Germany October 1992</li>
+  <li>Plantec Frankfurt, Germany October 1994</li>
+  <li>Iberflora Valencia, España 1996,1997,1998,2005</li>
+  <li>Padova Padua, Italia 1999, 2000</li>
+  <li>Proflora, Colombia 2009-2011</li>
+  <li>IPM ESSEN, Germany, January&nbsp;2014</li>
+  </ol>
+<% else %>
+  <p>Del Rio comenzó cultivando Flores y Follajes tropicales en Junio de 1986. La finca está localizada en Limón, en la costa Atlántica de Costa Rica, en el bosque lluvioso tropical, está a 140 metros del nivel del mar y tiene una temperatura promedio de 30 °C todo el año. La finca se encuentra ubicada a 115 kilómetros del aeropuerto, aproximadamente a dos horas de viaje por carretera.</p>
+  <p>Del Rio hizo su primera exportación a Florida , USA en 1988, y ahora exportamos a otras partes de U.S.A, además de Canadá y Europa. Orgullosamente estamos certificados por Rainforest Alliance hace 6 años, con esta certificación conservamos la vida silvestre, protegemos nuestros bosques, suelos y aseguramos el bienestar de los trabajadores y sus familias a la vez la comunidad local logrando una verdadera sostenibilidad a largo plazo.</p>
+  <h3>Desde nuestro comienzo hemos participado en algunos shows, tales como:</h3>
+  <ol>
+  <li>PMA New Orleans, USA October 1990</li>
+  <li>IPM Essen, Germany February 1991</li>
+  <li>IPM Essen, Germany February 1992</li>
+  <li>Plantec Frankfurt, Germany October 1992</li>
+  <li>Plantec Frankfurt, Germany October 1994</li>
+  <li>Iberflora Valencia, España 1996,1997,1998,2005</li>
+  <li>Padova Padua, Italia 1999, 2000</li>
+  <li>Proflora, Colombia 2009-2011</li>
+  <li>IPMS ESSEN, Germany, January&nbsp;2014</li>
+</ol>
+<% end %>

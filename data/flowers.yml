@@ -8,14 +8,15 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Bronce"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Bronce"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 1
   availability: 1
-  length: "70 -150"
+  length: "70 - 150"
   stem_length: ""
   head_size_sm: ""
   head_size_md: ""
@@ -32,9 +33,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Coccinea"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Coccinea"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 2
@@ -56,9 +58,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Pink"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Pink"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 15
@@ -80,9 +83,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Praying Hands"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Praying Hands"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 4
@@ -104,9 +108,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Purple"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Purple"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 5
@@ -128,9 +133,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa Royal"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa Royal"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 6
@@ -152,9 +158,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Musa Sp"
-  common_name_en: "Mussa White"
-  common_name_es: ""
+  title:
+    scientific_name: "Musa Sp"
+    en: "Mussa White"
+    es: ""
   scientific_name_es: ""
   family: 1
   color: 7
@@ -176,9 +183,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Sp"
-  common_name_en: "Red Ginger"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Sp"
+    en: "Red Ginger"
+    es: ""
   scientific_name_es: ""
   family: 2
   color: "13,14"
@@ -200,9 +208,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Sp"
-  common_name_en: "Pink Ginger"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Sp"
+    en: "Pink Ginger"
+    es: ""
   scientific_name_es: ""
   family: 2
   color: 15
@@ -224,9 +233,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Sp"
-  common_name_en: "White Ginger"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Sp"
+    en: "White Ginger"
+    es: ""
   scientific_name_es: ""
   family: 2
   color: 7
@@ -248,9 +258,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Sp"
-  common_name_en: "Ginger King Red"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Sp"
+    en: "Ginger King Red"
+    es: ""
   scientific_name_es: ""
   family: 2
   color: 16
@@ -272,9 +283,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Sp"
-  common_name_en: "Ginger King Pink"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Sp"
+    en: "Ginger King Pink"
+    es: ""
   scientific_name_es: ""
   family: 2
   color: 16
@@ -296,9 +308,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Red Iris"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Red Iris"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -320,9 +333,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Camerun"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Camerun"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -344,9 +358,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sheneana"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sheneana"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -368,9 +383,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sheneana"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sheneana"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -392,9 +408,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Edge of Night"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Edge of Night"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -416,9 +433,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Prince of Darkness"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Prince of Darkness"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -440,9 +458,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Mayan Gold"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Mayan Gold"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -464,9 +483,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Splash"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Splash"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -488,9 +508,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Green Tumb"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Green Tumb"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -512,9 +533,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Wagneriana"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Wagneriana"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -536,9 +558,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Shubby"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Shubby"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -560,9 +583,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Ecuatoriana"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Ecuatoriana"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -584,9 +608,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Pinky Peach"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Pinky Peach"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -608,9 +633,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Real Tagami"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Real Tagami"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -632,9 +658,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "She Lisa"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "She Lisa"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -656,9 +683,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Candy Yellow"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Candy Yellow"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -680,9 +708,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Candy White"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Candy White"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -704,9 +733,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Jardin Green"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Jardin Green"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -728,9 +758,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Jardin White"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Jardin White"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -752,9 +783,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Jardin Yellow"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Jardin Yellow"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -776,9 +808,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Cumanda"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Cumanda"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -800,9 +833,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sunshine"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sunshine"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -824,9 +858,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Humilis"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Humilis"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -848,9 +883,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Orange del rio"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Orange del rio"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -872,9 +908,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Rostrata"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Rostrata"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -896,9 +933,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "She Kong"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "She Kong"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -920,9 +958,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sexy Pink"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sexy Pink"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -944,9 +983,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sexy Scarlet"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sexy Scarlet"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -968,9 +1008,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Sexy Orange"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Sexy Orange"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -992,9 +1033,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Psittacorum Fire Opal"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Psittacorum Fire Opal"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -1016,9 +1058,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Psittacorum Golden Opal"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Psittacorum Golden Opal"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -1040,9 +1083,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Psittacorum Flamingo"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Psittacorum Flamingo"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -1064,9 +1108,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Heliconia SP"
-  common_name_en: "Psittacorum Golden Torch Yellow"
-  common_name_es: ""
+  title:
+    scientific_name: "Heliconia SP"
+    en: "Psittacorum Golden Torch Yellow"
+    es: ""
   scientific_name_es: ""
   family: 3
   color: ""
@@ -1088,9 +1133,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Etlingera Elartior"
-  common_name_en: "Ginger Torch Red"
-  common_name_es: ""
+  title:
+    scientific_name: "Etlingera Elartior"
+    en: "Ginger Torch Red"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1112,9 +1158,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Etlingera Elartior"
-  common_name_en: "Ginger Torch Pink"
-  common_name_es: ""
+  title:
+    scientific_name: "Etlingera Elartior"
+    en: "Ginger Torch Pink"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1136,9 +1183,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "French Kiss"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "French Kiss"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1160,9 +1208,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Kiss of Death"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Kiss of Death"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1184,9 +1233,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Curcuma Ming"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Curcuma Ming"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1208,9 +1258,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Costus Green"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Costus Green"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1232,9 +1283,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Costus Purple"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Costus Purple"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1256,9 +1308,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Lipstick Brown"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Lipstick Brown"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1280,9 +1333,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Costus Sp"
-  common_name_en: "Lipstick Green"
-  common_name_es: ""
+  title:
+    scientific_name: "Costus Sp"
+    en: "Lipstick Green"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1304,9 +1358,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Zingiber Sp"
-  common_name_en: "Shampoo Ginger Yellow"
-  common_name_es: ""
+  title:
+    scientific_name: "Zingiber Sp"
+    en: "Shampoo Ginger Yellow"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1328,9 +1383,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Zingiber Sp"
-  common_name_en: "Shampoo Ginger Red"
-  common_name_es: ""
+  title:
+    scientific_name: "Zingiber Sp"
+    en: "Shampoo Ginger Red"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1352,9 +1408,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Zingiber Sp"
-  common_name_en: "Shampoo Ginger Chocolate"
-  common_name_es: ""
+  title:
+    scientific_name: "Zingiber Sp"
+    en: "Shampoo Ginger Chocolate"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1376,9 +1433,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Zingiber Sp"
-  common_name_en: "Shampoo Ginger Green"
-  common_name_es: ""
+  title:
+    scientific_name: "Zingiber Sp"
+    en: "Shampoo Ginger Green"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1400,9 +1458,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Calathea Sp"
-  common_name_en: "Calathea Yellow - Bronce"
-  common_name_es: ""
+  title:
+    scientific_name: "Calathea Sp"
+    en: "Calathea Yellow - Bronce"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1424,9 +1483,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Solanum Mamosum"
-  common_name_en: "Pig Face"
-  common_name_es: ""
+  title:
+    scientific_name: "Solanum Mamosum"
+    en: "Pig Face"
+    es: ""
   scientific_name_es: ""
   family: 4
   color: ""
@@ -1448,9 +1508,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Monstera Deliciosa"
-  common_name_en: "Monstera"
-  common_name_es: ""
+  title:
+    scientific_name: "Monstera Deliciosa"
+    en: "Monstera"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1472,9 +1533,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Cyperus Involucratus"
-  common_name_en: "Papyrus Umbrella"
-  common_name_es: ""
+  title:
+    scientific_name: "Cyperus Involucratus"
+    en: "Papyrus Umbrella"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1496,9 +1558,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Cyperus Papyrus"
-  common_name_en: "Papyrus Egipcio"
-  common_name_es: ""
+  title:
+    scientific_name: "Cyperus Papyrus"
+    en: "Papyrus Egipcio"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1520,9 +1583,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Alpinia Zerumbet"
-  common_name_en: "Ginger Variegado Yellow"
-  common_name_es: ""
+  title:
+    scientific_name: "Alpinia Zerumbet"
+    en: "Ginger Variegado Yellow"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1544,9 +1608,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Calathea"
-  common_name_en: "Calathea Zebrina"
-  common_name_es: ""
+  title:
+    scientific_name: "Calathea"
+    en: "Calathea Zebrina"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1568,9 +1633,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Dracaena Reflexa"
-  common_name_en: "Song of India"
-  common_name_es: ""
+  title:
+    scientific_name: "Dracaena Reflexa"
+    en: "Song of India"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1592,9 +1658,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Dracaena Reflexa"
-  common_name_en: "Song of Jamaica"
-  common_name_es: ""
+  title:
+    scientific_name: "Dracaena Reflexa"
+    en: "Song of Jamaica"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1616,9 +1683,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Cordeline Terminalis"
-  common_name_en: "Tip de Cordelines"
-  common_name_es: ""
+  title:
+    scientific_name: "Cordeline Terminalis"
+    en: "Tip de Cordelines"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
@@ -1640,9 +1708,10 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  scientific_name: "Pandanus Halla"
-  common_name_en: "Pandanus"
-  common_name_es: ""
+  title:
+    scientific_name: "Pandanus Halla"
+    en: "Pandanus"
+    es: ""
   scientific_name_es: ""
   family: 5
   color: ""
