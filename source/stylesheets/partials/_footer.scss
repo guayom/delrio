@@ -1,0 +1,32 @@
+#footer{
+  background:$dark_green;
+  color: #fff;
+
+  padding: 40px 0;
+
+  small{
+    a{
+      text-decoration: none;
+      color: #ffffff;
+      border-bottom: 1px dotted #ffffff;
+      transition: all 0.2s ease 0s;
+    }
+  }
+
+  img{
+    width: 100%;
+    clear: both;
+    float: none;
+  }
+
+  .rfa-logo{
+    text-align: center;
+    p{
+      display: block;
+      width: 100%;
+      float: right;
+      font-size: 0.8em;
+      margin-top: 20px;
+    }
+  }
+}
