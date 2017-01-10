@@ -1,34 +1,63 @@
 <footer id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-xs-6">
+        <h3>Quick Access</h3>
         <ul>
-          <% 6.times do %>
+          <%
+            @links = [
+              [t(:home), ""],
+              #[t(:flowers), t(:flowers_path)],
+              [t(:our_company), t(:our_company_path)],
+              [t(:background), t(:background_path)],
+              #[t(:news), t(:news_path)],
+              [t(:contact), t(:contact_path)]
+            ]
+          %>
+          <% @links.each do |item| %>
+            <% if item[1] == 'flowers' or item[1] == 'flores' %>
+              <li class="nav-link dropdown">
+                <a href="/<%= I18n.locale %>/<%= item[1] %>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <%= item[0].capitalize %> <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <% data.families.each do |family| %>
+                    <li>
+                      <a href="/<%= I18n.locale %>/<%= family.title[I18n.locale].parameterize %>">
+                        <%= family.title[I18n.locale] %>
+                      </a>
+                    </li>
+                  <% end %>
+                </ul>
+              </li>
+            <% else %>
+              <li class="nav-link"><a href="<%= "/#{get_language}/#{item[1]}" %>"><%= item[0].capitalize %></a></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <h3>Our flowers</h3>
+        <ul>
+          <% 5.times do %>
           <li><a href="#">link</a>
           <% end %>
         </ul>
       </div>
-      <div class="col-md-3">
-        <ul>
-          <% 8.times do %>
-          <li><a href="#">link</a>
-          <% end %>
-        </ul>
-      </div>
-      <div class="col-md-3 col-md-offset-3 text-center rfa-logo">
+      <div class="col-md-3 col-md-offset-3 col-xs-6 col-xs-offset-3 text-center rfa-logo">
         <img class="pull-right" title="Rain Forest Alliance Certification" src="/images/rainforest_alliance.png" alt="Rain Forest Alliance Certification">
         <p>Certified Since 2009</p>
       </div>
     </div>
     <hr>
     <div class="row">
-      <div class="col-md-6">
-        <ul class="list-inline">
+      <div class="col-md-6 col-xs-12">
+        <ul class="list-inline social">
           <li><i class="fa fa-facebook"></i></li>
           <li><i class="fa fa-twitter"></i></li>
         </ul>
       </div>
-      <div class="col-md-6 text-right">
+      <div class="col-md-6 col-xs-12 text-right copyright">
       	<small>Copyright © 2016 Del Rí­o Exotic Flowers. All Rights Reserved.<br>Designed by <a href="http://guayo.me" title="Guayo Mena" target="_blank">Guayo Mena</a>.</small>
       </div>
     </div>

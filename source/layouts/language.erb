@@ -26,24 +26,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-  <body class="<%= page_classes %>">
-    <%= partial "partials/mainnav" %>
-    <%= yield %>
-    <%= partial "partials/footer" %>
-    <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/javascripts/unslider-min.js"></script>
-    <script>
-		jQuery(document).ready(function($) {
-			$('.why-slider').unslider({
-        autoplay: true,
-        nav: false,
-        arrows: false
-      });
-		});
-	</script>
+  <body class="<%= page_classes %> language">
+    <div class="container text-center">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,4 +1,10 @@
-<%= t(:our_company) %>
+---
+mastheadbg: /images/pano1.png
+layout: content
+---
+<% content_for(:masthead_title) do %>
+  <%= t(:our_company) %>
+<% end %>
 <% content_for(:matching_path) do %>
 <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "our_company") %>
 <% end %>

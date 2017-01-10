@@ -1,13 +1,5 @@
 <% wrap_layout :layout do %>
-  <div class="wrap masthead ">
-    <div class="container">
-      <div class="masthead-bg" style="background-image: url('/images/pano1.jpg')"></div>
-      <div class="jamasshead">
-        <h3 class="jamasshead-title"><%= current_page.title %></h3>
-      <div class="jamasshead-description"></div>
-      </div>
-    </div>
-  </div>
+  <%= partial "partials/masthead" %>
   <div class="container">
     <%= yield %>
   </div>

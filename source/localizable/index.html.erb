@@ -1,10 +1,27 @@
 <img style="width: 100%;" src="/images/portada-bienvenidos.jpg" alt="">
-<h2><%= t(:why) %></h2>
+
+<div class="text-center">
+  <h2><%= t(:why) %></h2>
+</div>
 <div class="row" class="why">
-  <div class="col-md-6">
-    <ul>
-      <li><%= t(:quality) %><%= t(:quality_detail) %></li>
-      <li><%= t(:compromise) %><%= t(:compromise_detail) %></li>
+  <div class="why-slider">
+    <ul class="list-unstyled">
+      <li>
+        <div class="row">
+          <div class="col-xs-6 text-center why-text">
+            <h4><%= t(:quality) %></h4>
+            <p><%= t(:quality_detail) %></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="col-xs-6 text-center why-text">
+            <h4><%= t(:compromise) %></h4>
+            <p><%= t(:compromise_detail) %></p>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 </div>

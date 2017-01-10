@@ -1,5 +1,63 @@
-.navbar-brand{
-  img{
-    height: 30px;
+.navbar-default{
+  background-color: #fff;
+  border: none;
+  border-color: #fff;
+  margin: 0;
+  height: 100px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  z-index: 100;
+
+  .container{
+    background:#fff;
+  }
+
+  .navbar-nav>li>a{
+    text-transform: none;
+    padding-left: 0;
+    padding-right: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color: $gris;
+    line-height: 26px;
+    &:hover{
+      color: $main-green;
+    }
+  }
+  img.logo-img {
+    height: 60px;
+    max-width: 150px !important;
+    max-height: 290px !important;
+    margin-top: -15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  &.affix{
+    img.logo-img {
+      height: 60px;
+    }
+  }
+  &.flag{
+    display: inline;
+    height: auto;
+  }
+}
+.navbar-default .navbar-collapse{
+  border: none;
+  .navbar-nav{
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width : 480px) {
+  .navbar-default{
+    img.logo-img{
+      height: 130px;
+    }
   }
 }

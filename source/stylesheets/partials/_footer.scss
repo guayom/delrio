@@ -1,8 +1,8 @@
 #footer{
   background:$dark_green;
   color: #fff;
-
   padding: 40px 0;
+  margin-top: 40px;
 
   small{
     a{
@@ -29,4 +29,120 @@
       margin-top: 20px;
     }
   }
+  h3{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: $open-sans;
+    line-height: 1.25;
+  }
+  ul{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  li{
+    line-height: 24px;
+    border: 0;
+    list-style: none;
+    position: relative;
+    display: block;
+
+    a{
+      font-weight: 400;
+      padding: 6px 5px;
+      display: block;
+      position: relative;
+      color: #ecf0f1;
+      font: $open-sans;
+      font-size: 14px;
+
+      &:before{
+          content: "\f105";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: 400;
+          text-decoration: inherit;
+          padding-right: 0.5em;
+      }
+    }
+  }
+  .social{
+    width: auto;
+    margin-bottom: 5px;
+    line-height: initial;
+    display: inline-block;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+
+    li{
+      display: inline-block;
+    }
+
+    i{
+      background: rgba(0,0,0,0.1);
+      border-bottom: 0 none;
+      border-radius: 50%;
+      color: #ffffff;
+      font-size: 24px;
+      height: 42px;
+      line-height: 42px;
+      margin: 0 5px 0 0;
+      text-align: center;
+      width: 42px;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+
+      &.fa-facebook:hover{
+        background: rgba(73, 99, 158, 1);
+      }
+      &.fa-twitter:hover{
+        background: rgba(85, 172, 238, 1);
+      }
+
+      &:before{
+        font-size: 24px;
+        line-height: 42px;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  #footer{
+    padding-top: 20px;
+
+    .social{
+      text-align: center;
+      display: block;
+      margin-bottom: 20px;
+
+      li{
+        display: inline-block;
+      }
+    }
+  }
+  .rfa-logo {
+    margin-top: 40px;
+  }
+  .copyright{
+    text-align: center;
+  }
+}
+
+.en_index #footer, .es_index #footer{
+  margin-top: 0;
 }

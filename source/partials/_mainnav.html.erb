@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -50,6 +50,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
           <a href="<%= "/#{get_opposite_locale(I18n.locale.to_s)}/#{yield_content(:matching_path)}" %>">
+            <img src="/images/<%= get_opposite_locale(I18n.locale.to_s) %>.gif" class="flag"/>
             <%= get_opposite_locale(I18n.locale.to_s) %>
           </a>
         </li>

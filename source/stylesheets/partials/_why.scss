@@ -1,0 +1,45 @@
+.why-text{
+  color: #fff;
+  min-height: 605px;
+  padding: 182px;
+  z-index: 10;
+}
+.why-slider{
+  position: relative;
+  margin-top: 20px;
+  z-index: 1;
+  background-image: url(/images/bouquet-section/del-rio-7.jpg);
+  background-size: 100%;
+
+  h4{
+    color: #ffffff;
+    font-size: 45px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 52px;
+    &:after{
+      background-color: #ffffff;
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 50%;
+      bottom: -26px;
+      left: 25%;
+    }
+  }
+  p{
+    font-size: 24px;
+  }
+}
+.why-slider:after{
+  content: "";
+  background-color: #46b749;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  z-index: 2;
+}

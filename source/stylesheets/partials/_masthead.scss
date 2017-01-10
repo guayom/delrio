@@ -1,0 +1,18 @@
+.masthead{
+  background: $main-green;
+  color: #ffffff;
+  position: relative;
+  padding: 80px 0;
+  margin-bottom: 40px;
+  h1{
+    font-size: 56px;
+    margin-top: 0;
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 13px;
+    line-height: 1.25;
+    color: inherit;
+    font-family: $open-sans;
+  }
+}
