@@ -15,7 +15,7 @@ layout: content
       :title => family.title[I18n.locale.to_s],
       :image => family.image,
       :cta => t(:flowers_cta),
-      :link => "#"
+      :link => "/#{I18n.locale}/#{family.title[I18n.locale].parameterize}"
       } %>
   <% end %>
 </div>
