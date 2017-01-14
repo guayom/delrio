@@ -1,0 +1,32 @@
+.card{
+}
+.card-image{
+  height: 450px;
+  overflow: hidden;
+  border: 1px solid #ecf0f1;
+  border-bottom: none;
+  padding: 0 13px;
+  img{
+    max-width: 100%;
+  }
+}
+.card-title{
+  float: none;
+  padding: 12px 20px;
+  background: $main-green;
+  h3{
+    color: #fff;
+  }
+  a, a:visited, a:hover{
+    color: #fff;
+  }
+}
+.card-action{
+  background: $secondary_green;
+  padding: 5px 10px;
+  text-align: right;
+  a{
+    color: #fff;
+    font-size: 0.8em;
+  }
+}

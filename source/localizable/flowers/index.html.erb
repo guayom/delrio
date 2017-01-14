@@ -1,17 +1,21 @@
-<%= t(:flowers) %>
+---
+layout: content
+---
 <% content_for(:matching_path) do %>
 <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "flowers") %>
 <% end %>
 
-<ul>
+<% content_for(:masthead_title) do %>
+  <%= t(:flowers_title) %>
+<% end %>
+
+<div class="row">
   <% data.families.sort_by{|family| family.ordering }.each do |family| %>
-    <li>
-      <%= family.title[I18n.locale.to_s] %>
-      <ul>
-        <% data.flowers.select{|flower| flower.family == family.id }.each do |flower| %>
-          <li><%= flower.title.en %></li>
-        <% end %>
-      </ul>
-    </li>
+    <%= partial "partials/card", :locals => {
+      :title => family.title[I18n.locale.to_s],
+      :image => family.image,
+      :cta => t(:flowers_cta),
+      :link => "#"
+      } %>
   <% end %>
-</ul>
+</div>
