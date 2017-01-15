@@ -17,9 +17,18 @@
   background: $main-green;
   h3{
     color: #fff;
+    margin: 0;
+    line-height: 1em;
   }
   a, a:visited, a:hover{
     color: #fff;
+  }
+  span{
+    font-style: normal;
+    font-size: 12px;
+    display: block;
+    min-height: 24px;
+    margin-bottom:0;
   }
 }
 .card-action{

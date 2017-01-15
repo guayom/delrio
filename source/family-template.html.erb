@@ -1,7 +1,34 @@
-<div class="container">
-  <h1><%= family.title[I18n.locale] %></h1>
+---
+layout: content
+---
+<% content_for(:masthead_title) do %>
+  <%= family.title[I18n.locale] %>
+<% end %>
+<% content_for(:masthead_description) do %>
   <p><%= family.description[I18n.locale] %></p>
-</div>
+<% end %>
 <% content_for(:matching_path) do %>
 <%= matching_path %>
 <% end %>
+
+<div class="row">
+  <% data.flowers.select{|flower| flower.family == family.id }.each do |flower| %>
+
+    <%
+    @image = data.images.detect{|i| i.flower == flower.id }
+    if @image.nil?
+      @image_path = "https://placehold.it/332x442"
+    else
+      @image_path = "/#{@image.image}"
+    end
+    %>
+
+    <%= partial "partials/card", :locals => {
+      :title => flower.title[I18n.locale.to_s],
+      :subtitle => flower.title.scientific_name,
+      :image => @image_path,
+      :cta => t(:flowers_cta),
+      :link => "/#{I18n.locale}/#{family.title[I18n.locale].parameterize}/#{flower.title.en.parameterize}"
+      } %>
+  <% end %>
+</div>

@@ -3,7 +3,10 @@
     <a href="<%= link %>"><img src="<%= image %>" alt="<%= title %>"/></a>
   </div>
   <div class="card-title">
-    <a href="<%= link %>"><h3><%= title %></h3></a>
+    <a href="<%= link %>">
+      <% if defined? subtitle %><span><%= subtitle %></span><% end %>
+      <h3><%= title %></h3>
+    </a>
   </div>
   <div class="card-action">
     <a href="<%= link %>"><%= cta %></a>
