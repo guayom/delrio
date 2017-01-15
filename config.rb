@@ -18,9 +18,13 @@ activate :directory_indexes
   data.families.each do |family|
     @matching_path = locale == "es" ? "#{family.title['en'].parameterize}/" : "#{family.title['es'].parameterize}/"
     proxy "/#{locale}/#{family.title[locale].parameterize}/index.html", "/family-template.html", locals: { family: family, matching_path: @matching_path}, lang: locale, :ignore => true
+
+    data.flowers.select{|flower| flower.family == family.id }.each do |flower|
+      @matching_flower_path = locale == "es" ? "#{family.title['en'].parameterize}/#{family.title.en.parameterize}/#{flower.title.en.parameterize}" : "#{family.title['es'].parameterize}/#{flower.title.en.parameterize}"
+      proxy "/#{locale}/#{family.title[locale].parameterize}/#{flower.title.en.parameterize}/index.html", "/flower-template.html", locals: { flower: flower}, lang: locale, :ignore => true
+    end
   end
 end
-
 
 ###
 # Helpers
