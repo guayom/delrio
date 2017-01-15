@@ -21,10 +21,16 @@ layout: content
     else
       @image_path = "/#{@image.image}"
     end
+
+    if flower.title[I18n.locale.to_s] == ""
+      @title = flower.title.en
+    else
+      @title = flower.title[I18n.locale.to_s]
+    end
     %>
 
     <%= partial "partials/card", :locals => {
-      :title => flower.title[I18n.locale.to_s],
+      :title => @title,
       :subtitle => flower.title.scientific_name,
       :image => @image_path,
       :cta => t(:flowers_cta),
