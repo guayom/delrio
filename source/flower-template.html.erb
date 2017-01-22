@@ -2,7 +2,11 @@
 layout: content
 ---
 <% content_for(:masthead_title) do %>
-  <%= flower.title[I18n.locale] %>
+  <% if flower.title[I18n.locale] == "" or flower.title[I18n.locale].nil? %>
+    <%= flower.title.en %>
+  <% else %>
+    <%= flower.title[I18n.locale] %>
+  <% end %>
   <% if flower.title.scientific_name %><p><%= t(:scientific_name)%>: <%= flower.title.scientific_name %></p><% end %>
   <%= '<p><strong><i class="fa fa-star"></i> Available all year long</strong></p>' if flower.availability == 1 %>
 <% end %>
