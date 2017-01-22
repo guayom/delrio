@@ -20,8 +20,8 @@ activate :directory_indexes
     proxy "/#{locale}/#{family.title[locale].parameterize}/index.html", "/family-template.html", locals: { family: family, matching_path: @matching_path}, lang: locale, :ignore => true
 
     data.flowers.select{|flower| flower.family == family.id }.each do |flower|
-      @matching_flower_path = locale == "es" ? "#{family.title['en'].parameterize}/#{family.title.en.parameterize}/#{flower.title.en.parameterize}" : "#{family.title['es'].parameterize}/#{flower.title.en.parameterize}"
-      proxy "/#{locale}/#{family.title[locale].parameterize}/#{flower.title.en.parameterize}/index.html", "/flower-template.html", locals: { flower: flower}, lang: locale, :ignore => true
+      @matching_flower_path = locale == "es" ? "#{family.title['en'].parameterize}/#{flower.title.en.parameterize}" : "#{family.title['es'].parameterize}/#{flower.title.en.parameterize}"
+      proxy "/#{locale}/#{family.title[locale].parameterize}/#{flower.title.en.parameterize}/index.html", "/flower-template.html", locals: { flower: flower, matching_flower_path: @matching_flower_path}, lang: locale, :ignore => true
     end
   end
 end

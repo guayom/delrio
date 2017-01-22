@@ -11,6 +11,10 @@ layout: content
   <%= '<p><strong><i class="fa fa-star"></i> Available all year long</strong></p>' if flower.availability == 1 %>
 <% end %>
 
+<% content_for(:matching_path) do %>
+<%= matching_flower_path %>
+<% end %>
+
 <div class="row">
   <div class="col-xs-12 col-md-8">
     <h3><%= t(:characteristics) %></h3>
