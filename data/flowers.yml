@@ -23,8 +23,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: "10 - 20"
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 2
@@ -48,8 +49,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: "10 - 20"
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 3
@@ -73,8 +75,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: "10 - 20"
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 4
@@ -98,8 +101,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: 2
-  other_characteristics_en: "It can be only pack by 2 units cause they are very heavy!"
-  other_characteristics_es: "Solo se pueden empacar en grupos de 2 porque son muy pesadas"
+  other_characteristics:
+    en: "It can be only pack by 2 units cause they are very heavy!"
+    es: "Solo se pueden empacar en grupos de 2 porque son muy pesadas"
   featured: 0
 -
   id: 5
@@ -123,8 +127,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: "10 - 20"
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 6
@@ -148,8 +153,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: "10 - 20"
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 7
@@ -166,15 +172,16 @@
   family: 1
   color: 7
   availability: 0
-  length: "70 -150"
+  length: "70-150"
   stem_length: ""
   head_size_sm: ""
   head_size_md: ""
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "Very Unique Variety"
-  other_characteristics_es: "Variedad muy exclusiva"
+  other_characteristics:
+    en: "Very Unique Variety"
+    es: "Variedad muy exclusiva"
   featured: 0
 -
   id: 8
@@ -198,8 +205,9 @@
   head_size_lg: "20-25"
   head_size_xl: "25-30"
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 1
 -
   id: 9
@@ -223,8 +231,9 @@
   head_size_lg: "20-25"
   head_size_xl: "25-30"
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 10
@@ -248,8 +257,9 @@
   head_size_lg: 20
   head_size_xl: 25
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 11
@@ -273,8 +283,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 12
@@ -298,8 +309,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 13
@@ -323,8 +335,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 14
@@ -348,8 +361,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 15
@@ -373,8 +387,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 16
@@ -398,8 +413,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 17
@@ -423,8 +439,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 18
@@ -448,8 +465,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Special Feature:</strong> this plant can grow up to 4.5 meters!"
-  other_characteristics_es: "<strong>Característica especial:</strong> ¡Esta planta puede crecer hasta 4.5 metros!"
+  other_characteristics:
+    en: "<strong>Special Feature:</strong> this plant can grow up to 4.5 meters!"
+    es: "<strong>Característica especial:</strong> ¡Esta planta puede crecer hasta 4.5 metros!"
   featured: 0
 -
   id: 19
@@ -473,8 +491,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
-  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande "
+  other_characteristics:
+    en: "<strong>Special Feature:</strong> The bloom is XL"
+    es: "<strong>Característica Espcial:</strong> La floración es extra grande "
   featured: 0
 -
   id: 20
@@ -498,8 +517,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
-  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande"
+  other_characteristics:
+    en: "<strong>Special Feature:</strong> The bloom is XL"
+    es: "<strong>Característica Espcial:</strong> La floración es extra grande"
   featured: 0
 -
   id: 21
@@ -523,8 +543,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Special Feature:</strong> The bloom is XL"
-  other_characteristics_es: "<strong>Característica Espcial:</strong> La floración es extra grande "
+  other_characteristics:
+    en: "<strong>Special Feature:</strong> The bloom is XL"
+    es: "<strong>Característica Espcial:</strong> La floración es extra grande "
   featured: 1
 -
   id: 22
@@ -548,8 +569,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 23
@@ -573,8 +595,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 24
@@ -598,8 +621,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 25
@@ -623,8 +647,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 26
@@ -648,8 +673,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 27
@@ -673,8 +699,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 28
@@ -698,8 +725,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 29
@@ -723,8 +751,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 30
@@ -748,8 +777,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 31
@@ -773,8 +803,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 32
@@ -798,8 +829,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 33
@@ -823,8 +855,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 34
@@ -848,8 +881,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 35
@@ -873,8 +907,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 36
@@ -898,8 +933,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 37
@@ -923,8 +959,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 38
@@ -948,8 +985,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Fun Fact: </strong>It is hairy!"
-  other_characteristics_es: "<strong>Dato divertido: </strong>Es peluda!"
+  other_characteristics:
+    en: "<strong>Fun Fact: </strong>It is hairy!"
+    es: "<strong>Dato divertido: </strong>Es peluda!"
   featured: 0
 -
   id: 39
@@ -973,8 +1011,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 40
@@ -998,8 +1037,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 41
@@ -1023,8 +1063,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 42
@@ -1048,8 +1089,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 43
@@ -1073,8 +1115,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 44
@@ -1098,8 +1141,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 45
@@ -1123,8 +1167,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 46
@@ -1148,8 +1193,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 47
@@ -1173,8 +1219,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 48
@@ -1198,8 +1245,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 49
@@ -1223,8 +1271,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 1
 -
   id: 50
@@ -1248,8 +1297,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 51
@@ -1273,8 +1323,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 52
@@ -1298,8 +1349,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 53
@@ -1323,8 +1375,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 54
@@ -1348,8 +1401,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 55
@@ -1373,8 +1427,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 56
@@ -1398,8 +1453,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 57
@@ -1423,8 +1479,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 58
@@ -1448,8 +1505,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 59
@@ -1473,8 +1531,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 60
@@ -1498,8 +1557,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 61
@@ -1523,8 +1583,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "You can find them in Mini, Small, Medium, Large and XL"
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "You can find them in Mini, Small, Medium, Large and XL"
+    es: ""
   featured: 0
 -
   id: 62
@@ -1548,8 +1609,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 1
 -
   id: 63
@@ -1573,8 +1635,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Fun Fact:</strong> it is the source of papyrus paper & parts of it can be eaten. Its native from Africa."
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "<strong>Fun Fact:</strong> it is the source of papyrus paper & parts of it can be eaten. Its native from Africa."
+    es: ""
   featured: 0
 -
   id: 64
@@ -1598,8 +1661,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "They are also sometimes known as the pink porcelain lily, variegated ginger or butterfly ginger. They can grow up to 8 to 10 ft (2.4 to 3.0 m) tall. "
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "They are also sometimes known as the pink porcelain lily, variegated ginger or butterfly ginger. They can grow up to 8 to 10 ft (2.4 to 3.0 m) tall. "
+    es: ""
   featured: 0
 -
   id: 65
@@ -1623,8 +1687,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "<strong>Fact:</strong> Native to the tropical Americas, many of the species are popular as pot plants due to their decorative leaves. We grow 5 different varieties "
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "<strong>Fact:</strong> Native to the tropical Americas, many of the species are popular as pot plants due to their decorative leaves. We grow 5 different varieties "
+    es: ""
   featured: 0
 -
   id: 66
@@ -1648,8 +1713,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "Dracaena reflexa, commonly called pleomele or song of India, is a species of Dracaena which is a tropical tree native to Madagascar, Mauritius."
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "Dracaena reflexa, commonly called pleomele or song of India, is a species of Dracaena which is a tropical tree native to Madagascar, Mauritius."
+    es: ""
   featured: 0
 -
   id: 67
@@ -1673,8 +1739,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: ""
-  other_characteristics_es: ""
+  other_characteristics:
+    en: ""
+    es: ""
   featured: 0
 -
   id: 68
@@ -1698,8 +1765,9 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "We have more than 10 varieties"
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "We have more than 10 varieties"
+    es: ""
   featured: 0
 -
   id: 69
@@ -1723,7 +1791,8 @@
   head_size_lg: ""
   head_size_xl: ""
   pack: ""
-  other_characteristics_en: "We have available 2 colors: variegado and green. Also we have 2 presentations straight and deco. The deco is a figure we can do on the tip of the pandanus, can be twisted or a bow."
-  other_characteristics_es: ""
+  other_characteristics:
+    en: "We have available 2 colors: variegado and green. Also we have 2 presentations straight and deco. The deco is a figure we can do on the tip of the pandanus, can be twisted or a bow."
+    es: ""
   featured: 0
 ...

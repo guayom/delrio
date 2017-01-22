@@ -3,4 +3,96 @@ layout: content
 ---
 <% content_for(:masthead_title) do %>
   <%= flower.title[I18n.locale] %>
+  <% if flower.title.scientific_name %><p><%= t(:scientific_name)%>: <%= flower.title.scientific_name %></p><% end %>
+  <%= '<p><strong><i class="fa fa-star"></i> Available all year long</strong></p>' if flower.availability == 1 %>
 <% end %>
+
+<div class="row">
+  <div class="col-xs-12 col-md-8">
+    <h3><%= t(:characteristics) %></h3>
+    <hr>
+    <dl class="dl-horizontal">
+      <dt>Family</dt>
+      <dd><%= data.families.detect{|family| family.id == flower.family}.title[I18n.locale] %></dd>
+
+      <% unless flower.color == "" %>
+        <dt>Color(s)</dt>
+        <dd>
+          <% if flower.color.is_a? Numeric
+               @colors = data.colors.detect{|color| flower.color == color.id}.title[I18n.locale]
+             else
+               @colors = data.colors.select{|color| flower.color.split(",").include? color.id.to_s}.map{|color| color.title[I18n.locale] }.join(", ")
+             end
+          %>
+          <%= @colors %>
+        </dd>
+      <% end %>
+      <% if flower.length and flower.length != "" %>
+        <dt>Length</dt><dd><%= flower.length %> cm</dd>
+      <% end %>
+      <% if flower.pack and flower.pack != "" %>
+        <dt>Pack</dt><dd><%= flower.pack %></dd>
+      <% end %>
+      <% if flower.stem_length and flower.stem_length != "" %>
+        <dt><%= t(:stem_length) %></dt><dd><%= flower.stem_length %></dd>
+      <% end %>
+      <% if flower.head_size_sm and flower.head_size_sm != "" %>
+        <dt><%= t(:head_size_sm) %></dt><dd><%= flower.head_size_sm %></dd>
+      <% end %>
+      <% if flower.head_size_md and flower.head_size_md != "" %>
+        <dt><%= t(:head_size_md) %></dt><dd><%= flower.head_size_md %></dd>
+      <% end %>
+      <% if flower.head_size_lg and flower.head_size_lg != "" %>
+        <dt><%= t(:head_size_lg) %></dt><dd><%= flower.head_size_lg %></dd>
+      <% end %>
+      <% if flower.head_size_xl and flower.head_size_xl != "" %>
+        <dt><%= t(:head_size_xl) %></dt><dd><%= flower.head_size_xl %></dd>
+      <% end %>
+      <% if flower.other_characteristics[I18n.locale] and flower.other_characteristics[I18n.locale] != "" %>
+        <dt><%= t(:other_characteristics) %></dt><dd><%= flower.other_characteristics[I18n.locale] %></dd>
+      <% end %>
+    </dl>
+    <hr/>
+    <br/>
+    <!-- <form id="get-a-quote" action="http://delrioexoticflowers.com/<%= I18n.locale %>/component/cotizaciones/solicitudform" method="post">
+      <input type="hidden" class="hidden" name="productos" value="<%= "#{flower.title.en.parameterize}" unless flower.title.en.nil?%><%= "-#{flower.scientific_name.parameterize}" unless flower.scientific_name.nil?%>" />
+      <button type="submit" class="btn btn-primary">Get a quote</button>
+    </form> -->
+  </div>
+  <div class="col-xs-12 col-md-4">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <% @imagenes = data.images.select{|image| image.flower == flower.id } %>
+      <% unless @imagenes.empty? %>
+        <% if @imagenes.count > 1 %>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <% @imagenes.each_with_index do |img, index| %>
+              <li data-target="#myCarousel" data-slide-to="<%= index %>" <% if index == 0 %>class="active"<% end %>></li>
+            <% end %>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <% @imagenes.each_with_index do |img, index| %>
+              <div class="item<% if index == 0 %> active<% end %>">
+                <img src="/<%= img.image %>" alt="<%= flower.title[I18n.locale] %>" class="img-responsive" />
+              </div>
+            <% end %>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        <% else %>
+          <img src="/<%= @imagenes[0].image %>" alt="<%= flower.title[I18n.locale] %>"  class="img-responsive"/>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>

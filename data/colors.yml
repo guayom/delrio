@@ -8,8 +8,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Light Orange"
-  name_es: "Light Orange"
+  title:
+    en: "Light Orange"
+    es: "Light Orange"
   hex: ""
 -
   id: 2
@@ -18,8 +19,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Bright Orange"
-  name_es: "Bright Orange"
+  title:
+    en: "Bright Orange"
+    es: "Bright Orange"
   hex: ""
 -
   id: 3
@@ -28,8 +30,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Rosa"
-  name_es: "Pink"
+  title:
+    en: "Rosa"
+    es: "Pink"
   hex: ""
 -
   id: 4
@@ -38,8 +41,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Green & redish"
-  name_es: "Verde y Rojizo"
+  title:
+    en: "Green & redish"
+    es: "Verde y Rojizo"
   hex: ""
 -
   id: 5
@@ -48,8 +52,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Terracota"
-  name_es: "Terracota"
+  title:
+    en: "Terracota"
+    es: "Terracota"
   hex: ""
 -
   id: 6
@@ -58,8 +63,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Light Purple"
-  name_es: "Morado Claro"
+  title:
+    en: "Light Purple"
+    es: "Morado Claro"
   hex: ""
 -
   id: 7
@@ -68,8 +74,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "White"
-  name_es: "Blanco"
+  title:
+    en: "White"
+    es: "Blanco"
   hex: ""
 -
   id: 8
@@ -78,8 +85,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Red Ginger"
-  name_es: "Jengibre rojo"
+  title:
+    en: "Red Ginger"
+    es: "Jengibre rojo"
   hex: ""
 -
   id: 9
@@ -88,8 +96,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Pink Ginger"
-  name_es: "Pink Ginger"
+  title:
+    en: "Pink Ginger"
+    es: "Pink Ginger"
   hex: ""
 -
   id: 10
@@ -98,8 +107,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "White Ginger"
-  name_es: "White Ginger"
+  title:
+    en: "White Ginger"
+    es: "White Ginger"
   hex: ""
 -
   id: 11
@@ -108,8 +118,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Ginger King Red"
-  name_es: "Ginger King Red"
+  title:
+    en: "Ginger King Red"
+    es: "Ginger King Red"
   hex: ""
 -
   id: 12
@@ -118,8 +129,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Ginger King Pink"
-  name_es: "Ginger King Pink"
+  title:
+    en: "Ginger King Pink"
+    es: "Ginger King Pink"
   hex: ""
 -
   id: 13
@@ -128,8 +140,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Bright Red"
-  name_es: "Rojo Brillante"
+  title:
+    en: "Bright Red"
+    es: "Rojo Brillante"
   hex: ""
 -
   id: 14
@@ -138,8 +151,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Burgundy"
-  name_es: "Borgoña"
+  title:
+    en: "Burgundy"
+    es: "Borgoña"
   hex: ""
 -
   id: 15
@@ -148,8 +162,9 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Pink"
-  name_es: "Rosa"
+  title:
+    en: "Pink"
+    es: "Rosa"
   hex: ""
 -
   id: 16
@@ -158,7 +173,8 @@
   checked_out: 0
   checked_out_time: "0000-00-00 00:00:00"
   created_by: 764
-  name_default: "Strawberry Red"
-  name_es: "Rojo Fresa"
+  title:
+    en: "Strawberry Red"
+    es: "Rojo Fresa"
   hex: ""
 ...
