@@ -9,49 +9,52 @@ layout: content
 <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "contact") %>
 <% end %>
 <div class="col-md-6">
-  <h3>Contact form</h3>
-  <form method="post">
+  <h3><%= t(:contact_form) %></h3>
+  <form method="post" action="https://formspree.io/info@delrioexoticflowers.com">
      <div class="form-group ">
-      <p><span class="reminder">Send an Email. All fields with an asterisk (*) are required.</span></p>
+      <p><span class="reminder"><%= t(:required_fields) %></span></p>
       <label class="control-label " for="name">
-       Name
+       <%= t(:name) %>
       </label>
       <input class="form-control" id="name" name="name" type="text"/>
      </div>
      <div class="form-group ">
-      <label class="control-label requiredField" for="email">
-       Email
+      <label class="control-label requiredField" for="_replyto">
+       <%= t(:email) %>
        <span class="asteriskField">
         *
        </span>
       </label>
-      <input class="form-control" id="email" name="email" type="text"/>
+      <input class="form-control" id="email" name="_replyto" type="text"/>
      </div>
      <div class="form-group ">
       <label class="control-label " for="subject">
-       Subject
+       <%= t(:subject) %>
       </label>
       <input class="form-control" id="subject" name="subject" type="text"/>
      </div>
      <div class="form-group ">
       <label class="control-label " for="message">
-       Message
+       <%= t(:message) %>
       </label>
       <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
      </div>
+     <input type="hidden" name="_next" value="<%= "/#{I18n.locale.to_s}/#{t(:thank_you_path)}.html" %>" />
+     <input type="hidden" name="_subject" value="Contacto desde la páginas" />
+     <input type="text" name="_gotcha" style="display:none" />
      <div class="form-group">
       <div>
        <button class="btn btn-rounded btn-primary smooth-scroll validate" name="submit" type="submit">
-        Submit
+        <%= t(:submit) %>
        </button>
       </div>
      </div>
     </form>
 </div>
 <div class="col-md-6">
-  <h3>info</h3>
-  <p>If you would like to contact us for any inquiries or ask for a quote, please feel free to use our contact form, call us or even chat with us on Skype!</p>
-  <h3>Contact</h3>
+  <h3><%= t(:info) %></h3>
+  <p><%= t(:info_message) %></p>
+  <h3><%= t(:contact) %></h3>
 	<i class="fa fa-phone"></i>+506 2265 2513<br/>
 	<i class="fa fa-phone-square"></i>+506 8719-3939
   <h3>Links</h3>

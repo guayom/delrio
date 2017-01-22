@@ -1,0 +1,11 @@
+---
+layout: content
+---
+<% content_for(:masthead_title) do %>
+  <%= t(:thank_you) %>
+  <p><%= t(:we_received_your_message) %></p>
+<% end %>
+<% content_for(:matching_path) do %>
+  <%= get_matching_path(get_opposite_locale(I18n.locale.to_s) , "thank-you") %>
+<% end %>
+<p><%= t(:thank_you_message) %></p>

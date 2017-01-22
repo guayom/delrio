@@ -10,6 +10,7 @@ es:
     families: familias
     family: familia
     contact: contacto
+    thank-you: gracias
 
   home: Inicio
   flowers: Flores
@@ -28,6 +29,7 @@ es:
   background_path: antecedentes
   news_path: noticias
   contact_path: contacto
+  thank_you_path: gracias
   why: ¿Por qué comprarle a Del Río?
   quality: Calidad
   quality_detail: Nuestro principal objetivo es la CALIDAD. De la cual, estamos orgullosos de nuestro excelente proceso de selección, controles estrictos y proceso de empaque, que nos permiten entregar las flores de la más alta calidad que satisfacen las necesidades de nuestros clientes más específicos.
@@ -43,3 +45,18 @@ es:
   head_size_xl: Tamaño de cabeza (extra grande)
   characteristics: Características
   other_characteristics: Otras características
+
+  #Formulario de contacto
+  thank_you_page: gracias
+  thank_you: Gracias
+  we_received_your_message: Hemos recibido su mensaje
+  thank_you_message: Responderemos a su correo lo antes posible.
+  contact_form: Formulario de contacto
+  required_fields: Eviar mensaje. Todos los campos con un asterisco (*) son requeridos.
+  name: Nombre
+  email: Email
+  subject: Asunto
+  message: Mensaje
+  submit: Enviar
+  info: Información
+  info_message: Si gusta contactarnos para hacer una pregunta o pedir una cotización, por favor siéntase libre de escribirnos por medio de nuestro formulario, llamarnos o hasta contactarnos por Skype!

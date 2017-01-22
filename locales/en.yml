@@ -10,6 +10,7 @@ en:
     families: families
     family: family
     contact: contact
+    thank-you: thank-you
 
   home: Home
   flowers: Flowers
@@ -28,6 +29,7 @@ en:
   background_path: background
   news_path: news
   contact_path: contact
+  thank_you_path: thank-you
   why: Why Choose Del Río?
   quality: Quality
   quality_detail: Our main objective is QUALITY. We are proud of our excellent selection; quality control and packing process that allow us to deliver the highest quality flowers that satisfy our clients specific needs.
@@ -43,3 +45,18 @@ en:
   head_size_xl: Head size (xl)
   characteristics: Characteristics
   other_characteristics: Other characteristics
+
+  #Contact form
+  thank_you_page: thank-you
+  thank_you: Thank you
+  we_received_your_message: We have received your message
+  thank_you_message: We will answer to your query as soon as possible.
+  contact_form: Contact form
+  required_fields: Send an Email. All fields with an asterisk (*) are required.
+  name: Name
+  email: Email
+  subject: Subject
+  message: Message
+  submit: Submit
+  info: Information
+  info_message: If you would like to contact us for any inquiries or ask for a quote, please feel free to use our contact form, call us or even chat with us on Skype!
