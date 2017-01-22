@@ -48,8 +48,9 @@
     <div class="row">
       <div class="col-md-6 col-xs-12">
         <ul class="list-inline social">
-          <li><i class="fa fa-facebook"></i></li>
-          <li><i class="fa fa-twitter"></i></li>
+          <% data.socialnetworks.each do |n| %>
+            <li><a href="<%= n.link %>"><i class="fa fa-<%= n.network %>"></i></a></li>
+          <% end %>
         </ul>
       </div>
       <div class="col-md-6 col-xs-12 text-right copyright">

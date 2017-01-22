@@ -84,6 +84,10 @@
     -o-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
 
+    a:before{
+      display: none;
+    }
+
     li{
       display: inline-block;
     }
@@ -110,6 +114,9 @@
       }
       &.fa-twitter:hover{
         background: rgba(85, 172, 238, 1);
+      }
+      &.fa-instagram:hover{
+        background: #fb3958;
       }
 
       &:before{
