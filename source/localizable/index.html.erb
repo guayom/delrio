@@ -25,3 +25,30 @@
     </ul>
   </div>
 </div>
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h2><%= t(:featured_flowers_title) %></h2>
+    <p><%= t(:featured_flowers_text) %></p>
+  </div>
+</div>
+<div class="container">
+  <div class="row featured-flowers">
+    <% data.flowers.select{ |flower| flower.featured == 1}.each do |flower| %>
+      <div class="col-xs-6 col-md-4 col-lg-3">
+        <a href="">
+          <%
+          @image = data.images.detect{|i| i.flower == flower.id }
+          if @image.nil?
+            @image_path = "https://placehold.it/332x442"
+          else
+            @image_path = "/#{@image.image}"
+          end
+          %>
+          <img src="<%= @image_path %>" alt="<%= flower.title[I18n.locale] %>" class="img-responsive" />
+          <h3><%= flower.title[I18n.locale] %></h3>
+          <p><%= data.families.detect{|family| family.id == flower.family }.title[I18n.locale] %></p>
+        </a>
+      </div>
+    <% end %>
+  </div>
+</div>

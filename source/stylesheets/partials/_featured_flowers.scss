@@ -1,0 +1,28 @@
+.featured-flowers{
+  margin: 40px 0;
+  h3{
+    margin-bottom: 0;
+  }
+
+  img{
+    border: solid 1px #ddd;
+  }
+  a{
+    display: block;
+    text-decoration: none;
+    color: $gris;
+
+    p{
+      font-weight: 300;
+      color: lighten($gris, 15%);
+    }
+
+    &:hover > h3{
+      text-decoration: none;
+      color: darken($gris, 15%);
+    }
+    &:hover > img{
+      border-color: darken($gris, 15%);
+    }
+  }
+}
