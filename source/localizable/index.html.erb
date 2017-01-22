@@ -35,7 +35,9 @@
   <div class="row featured-flowers">
     <% data.flowers.select{ |flower| flower.featured == 1}.each do |flower| %>
       <div class="col-xs-6 col-md-4 col-lg-3">
-        <a href="">
+        <% @family = data.families.detect{|family| family.id == flower.family }.title[I18n.locale] %>
+        <% @flower_title = flower.title[I18n.locale] == "" ? flower.title.en : flower.title[I18n.locale] %>
+        <a href="<%= "/#{I18n.locale}/#{@family.parameterize}/#{@flower_title.parameterize}/index.html" %>">
           <%
           @image = data.images.detect{|i| i.flower == flower.id }
           if @image.nil?
@@ -45,8 +47,8 @@
           end
           %>
           <img src="<%= @image_path %>" alt="<%= flower.title[I18n.locale] %>" class="img-responsive" />
-          <h3><%= flower.title[I18n.locale] %></h3>
-          <p><%= data.families.detect{|family| family.id == flower.family }.title[I18n.locale] %></p>
+          <h3><%= @flower_title %></h3>
+          <p><%= @family %></p>
         </a>
       </div>
     <% end %>
