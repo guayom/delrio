@@ -71,11 +71,10 @@ layout: content
 	<a href="+506-8719-3939"><i class="fa fa-phone-square"></i> +506 8719-3939</a>
   <h3>Links</h3>
   <ul class="list-unstyled">
+    <% data.socialnetworks.each do |n| %>
     <li>
-      <a href="http://www.facebook.com/obashe" class="facebook" target="_blank"><i class="fa fa-facebook"></i>  Facebook</a>
+      <a href="<%= n.link %>" class="<%= n.network %>" target="_blank"><i class="fa fa-<%= n.network %>"></i>  <%= n.network.capitalize %></a>
     </li>
-    <li>
-      <a href="http://instagram.com/del_rio_exotic_flowers/" class="instagram" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-    </li>
+    <% end %>
   </ul>
 </div>
