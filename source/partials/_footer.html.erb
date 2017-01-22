@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3 col-xs-6">
-        <h3>Quick Access</h3>
+        <h3><%= t(:quick_access) %></h3>
         <ul>
           <%
             @links = [
@@ -28,7 +28,7 @@
         </ul>
       </div>
       <div class="col-md-3 col-xs-6">
-        <h3>Our flowers</h3>
+        <h3><%= t(:flowers_title) %></h3>
         <ul>
           <% data.families.each do |family| %>
             <li>
@@ -41,7 +41,7 @@
       </div>
       <div class="col-md-3 col-md-offset-3 col-xs-6 col-xs-offset-3 text-center rfa-logo">
         <img class="pull-right" title="Rain Forest Alliance Certification" src="/images/rainforest_alliance.png" alt="Rain Forest Alliance Certification">
-        <p>Certified Since 2009</p>
+        <p><%= t(:certification) %></p>
       </div>
     </div>
     <hr>
@@ -53,7 +53,7 @@
         </ul>
       </div>
       <div class="col-md-6 col-xs-12 text-right copyright">
-      	<small>Copyright © 2016 Del Rí­o Exotic Flowers. All Rights Reserved.<br>Designed by <a href="http://guayo.me" title="Guayo Mena" target="_blank">Guayo Mena</a>.</small>
+      	<small><%= t(:copyright) %><br><%= t(:design) %> <a href="http://guayo.me" title="Guayo Mena" target="_blank">Guayo Mena</a>.</small>
       </div>
     </div>
   </div>

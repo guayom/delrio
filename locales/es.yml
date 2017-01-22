@@ -22,6 +22,7 @@ es:
   families: Familias
   family: Familia
   contact: Contacto
+  quick_access: Acceso rápido
   #fix this
   home_path: /es
   flowers_path: flores
@@ -60,3 +61,8 @@ es:
   submit: Enviar
   info: Información
   info_message: Si gusta contactarnos para hacer una pregunta o pedir una cotización, por favor siéntase libre de escribirnos por medio de nuestro formulario, llamarnos o hasta contactarnos por Skype!
+
+  #footer
+  copyright: Copyright © 2017 Del Rí­o Exotic Flowers. Todos los derechos reservados.
+  design: Designed by
+  certification: Certificados desde 2009
