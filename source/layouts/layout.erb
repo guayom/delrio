@@ -26,6 +26,7 @@
     <![endif]-->
 </head>
   <body class="<%= page_classes %>">
+    <%= partial "partials/googleanalytics" if build? %> 
     <%= partial "partials/mainnav" %>
     <%= yield %>
     <%= partial "partials/footer" %>
