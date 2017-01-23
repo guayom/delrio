@@ -53,7 +53,7 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :dotenv, env: '.env.build'
+  #activate :dotenv, env: '.env.build'
   # Minify CSS on build
   # activate :minify_css
 
