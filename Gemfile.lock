@@ -72,6 +72,9 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-dotenv (2.0.0)
+      dotenv (>= 2.0)
+      middleman-core (>= 4.0)
     minitest (5.10.1)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
@@ -105,6 +108,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-deploy (~> 1.0)
+  middleman-dotenv (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.0)
 
